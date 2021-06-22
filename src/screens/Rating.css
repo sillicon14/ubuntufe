@@ -1,0 +1,19 @@
+.rating span{
+    color: #f3b91a;
+    margin: 0.1rem;
+    font-size: 2rem;
+  }
+
+.rating span:last-child {
+    color: #404040;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  @media (max-width: 360px) {
+    .rating span{ 
+      font-size: 1.5rem;
+    }
+    .rating span:last-child{
+      font-size: 13px;
+    }
+  }

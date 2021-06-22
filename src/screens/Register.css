@@ -1,0 +1,83 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding: 2rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+    list-style-type: none;
+  }
+  .form-container li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .h3-color{
+    color: black;
+    text-align: center;
+  }
+  button {
+    font-size: 1.6rem;
+  }
+  .button {
+    padding: 1rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .button:hover {
+    border: 0.1rem #404040 solid;
+  }
+  .button.primary {
+    background-color: rgb(112, 182, 8);
+  }
+  .button.primary:hover{
+    background-color: green;
+    color: white;
+  }
+  .button.secondary {
+    background-color: #ebe7e7;
+  }
+  .button.secondary:hover{
+    font-weight: bold;
+  }
+  .text-center {
+    text-align: center;
+  }
+  input {
+    padding: 1rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+  }
+  
+  @media (max-width: 360px) {
+    .form-container {
+      width: 30rem;
+      padding: 1rem;
+      }
+      .form-container li {
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+       
+      }
+      button {
+        font-size: 1.4rem;
+      }
+      .button {
+        padding: 0.5rem;
+      }
+      input {
+        padding: 0.5rem;
+      }
+  }

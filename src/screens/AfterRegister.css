@@ -1,0 +1,24 @@
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+}
+
+.container1 {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+  padding: 100px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+  .back-to-result {
+    padding: 2rem;
+    font-size: 15px;
+    text-align: center;
+  }
+ 

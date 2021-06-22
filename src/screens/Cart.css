@@ -1,0 +1,174 @@
+.h3-color{
+  color: black;
+}
+.h3, h3 {
+  font-size: 2.4rem;
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 100px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  .cart {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    align-items: flex-start;
+    margin-top: 100px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+  
+  }
+  
+  .cart-list {
+    flex: 3 1 60rem;
+  }
+  
+.cart-action {
+    flex: 1 1 20rem;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cart-action-Free{
+    font-size: 15px;
+    color: #037716;
+  }
+  .cart-action-Free p{
+    font-size: 15px;
+    color: #037716;
+  }
+  
+.cart-list-container {
+    padding: 0;
+    list-style-type: none;
+    padding: 1rem;
+  }
+  .cart-list-container li {
+    display: flex;
+    justify-content: space-between;
+  
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.1rem #c0c0c0 solid;
+  }
+ 
+   .cart-list-container li img {
+    max-width: 18rem;
+    max-height: 18rem;
+  } 
+  .cart-list-container li:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .cart-image {
+    flex: 1 1;
+    padding-right: 20px; 
+  }
+  .cart-name {
+    flex: 8 1;
+    line-height: 1.8; 
+    font-size: 20px;
+  }
+  .cart-price {
+    flex: 1 1;
+    font-size: 2.5rem;
+    text-align: right;
+  }
+  .cart-Subtotal p{
+    text-align: right;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .del-but{
+    background-color: rgb(243, 66, 66);
+    border: none;
+    color: white;
+    margin-left: 10px;
+    padding: 7px 14px;
+    font-size: 14px;
+    cursor: pointer; 
+    border-radius: 12px;
+  }
+  .del-but-size{
+    padding-right: 3px;
+  }
+  .del-but:hover{
+    background-color: rgb(185, 10, 10);
+  }
+
+  button {
+    font-size: 1.6rem;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .brand button {
+    font-size: 2rem;
+    width: 250px;
+    margin-left: 13%;
+    padding: 10px 50px 15px 50px;
+    background: none;
+    background-color: rgb(5, 5, 126);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .button {
+    padding: 1rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .button:hover {
+    border: 0.1rem #404040 solid;
+  }
+  .button.primary {
+    background-color: rgb(112, 182, 8);
+  }
+  .button.primary:hover{
+    background-color: green;
+    color: white;
+  }
+
+  @media (max-width: 360px) {
+    .h3, h3{
+      font-size: 2rem;
+    }
+    .cart-name,
+    .cart-price {
+      font-size: 14px;
+    }
+    .cart-list-container li img {
+      max-width: 10rem;
+      max-height: 10rem;
+    }
+    .del-but{
+      padding: 5px 10px;
+      font-size: 12px;
+      border-radius: 10px;
+    }
+    .cart-Subtotal p{
+      font-size: 0px;
+      color: white;
+    }
+  }
